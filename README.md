@@ -10,6 +10,15 @@ Designed to help financial institutions detect refund-related losses and identif
 Dataset used:  
 📥 [Financial Transactions Dataset – Kaggle](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
 
+---
+
+## 🔧 Data Pipeline
+
+- **Python:** Initial data cleaning (null handling, formatting, feature correction)
+- **SQL (MySQL):** Joins and transformation of multiple tables into a unified `master_transaction` dataset
+- **Power BI:** Final modeling, calculated columns, DAX measures, and dashboard visualization
+
+---
 
 ## 📊 Dashboard Overview
 
@@ -44,9 +53,9 @@ Users can slice the dashboard using:
 ---
 
 ## 🛠️ Tools Used
-- Power BI
-- DAX for measures (e.g., Refund %, High Risk Users)
-- Custom calculated columns and grouped categories
+- **Python:** Data Cleaning (Pandas, NumPy)
+- **MySQL:** Data Transformation and Joins
+- **Power BI:** Dashboard Visualization, DAX, Slicers
 
 ---
 
