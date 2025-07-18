@@ -1,4 +1,4 @@
-# 🛡️ Refund Loss & Risk Behavior Intelligence – Executive Dashboard
+# 🛡️ Refund Loss & Risk Behavior – Executive Dashboard
 
 ## 📌 Objective
 Designed to help financial institutions detect refund-related losses and identify risky user behaviors based on transaction patterns, card types, and credit profiles.
