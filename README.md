@@ -1,4 +1,4 @@
-# 🛡️ Fraud & Refund Risk Intelligence – Executive Dashboard
+# 🛡️ Fraud & Refund Risk Intelligence – Dashboard
 
 ## 📌 Objective
 
@@ -81,7 +81,7 @@ Users can slice and analyze the dashboard using multiple filters:
 ## 📥 Download the Power BI File
 
 You can download the `.pbix` file for this dashboard here:  
-🔗 [Fraud & Refund Risk Intelligence Dashboard – Power BI File (Google Drive)]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1ty9EXEIUBFhbo-BmJOfH4UaSHHj-xsUZ/view?usp=sharing))
+🔗 [Fraud & Refund Risk Intelligence Dashboard – Power BI File (Google Drive)](https://drive.google.com/file/d/1ty9EXEIUBFhbo-BmJOfH4UaSHHj-xsUZ/view?usp=sharing)
 
 ---
 
