@@ -1,8 +1,13 @@
-# 🛡️ Fraud & Refund Risk Intelligence – Dashboard
+# 🛡️ Refund Loss & Risk Behavior – Executive Dashboard
 
 ## 📌 Objective
 
-This executive dashboard is designed to support fraud analysts and risk management teams in identifying **refund abuse patterns**, analyzing **customer risk behavior**, and minimizing **revenue leakage**. It combines data from multiple sources to uncover high-risk segments across transaction modes, income groups, and geographic regions.
+This executive dashboard is designed to support fraud analysts and risk management teams in identifying **refund abuse patterns**, analyzing **customer risk behavior**, and minimizing **revenue leakage**.
+
+The solution combines **transactional, customer, and card-level data** into a unified model, visualized in Power BI through a **2-page dashboard**:
+
+1. **Executive Dashboard** – High-level overview of refund trends, KPIs, and risk concentration  
+2. **Customer Profile** – Deep dive into customer segments by income, credit score, and geography  
 
 ---
 
@@ -22,41 +27,29 @@ This executive dashboard is designed to support fraud analysts and risk manageme
 
 ---
 
-## 📊 Dashboard Overview
+## 📊 Dashboard Structure
 
-### ✅ Key KPIs
-| Metric | Value |
-|--------|-------|
-| **Total Transactions** | 1M |
-| **Total Revenue** | ₹51.53M |
-| **Total Refunds (Absolute)** | ₹5.63M |
-| **Refund % of Revenue** | 12.26% |
-| **Total Users** | 1,131 |
-| **High-Risk Users** | 160 |
+### **Page 1 – Executive Dashboard**
+- **KPIs:** Total Transactions, Total Refunds, Refund %, Refund Amount  
+- **Refund Breakdown:** By chip type (swipe vs online), card brand, merchant state, top cities  
+- **Refund Trends:** Monthly trend analysis, top 5 refund states & cities  
+- **Geographic Exposure:** Refund % variation across merchant states  
 
----
-
-## 📈 Executive Insights
-
-- 💳 **Prepaid debit cards** had the highest refund rate at **13.51%**, suggesting potential misuse in non-credit channels with weaker verification layers.
-- 🔄 **Swipe transactions** showed a **13.68% refund rate**, which is more than **3x higher** than online transactions (4.02%), indicating **greater exposure in physical merchant transactions**.
-- 🧑‍💼 Users in the **₹25K–50K income** group and those earning **<₹25K** recorded the **highest refund percentages**, raising concern about refund abuse in lower-income customer segments.
-- 📉 Customers with **credit scores below 700** consistently show **above-average refund behavior**, correlating financial risk with transaction-level refund patterns.
-- 📈 **Refund volume steadily increased from Jan to May 2010**, indicating a persistent behavioral trend or potential policy exploitation.
-- 🌍 Refund-linked transactions are concentrated in **North American merchant states**, highlighting a geographic hotspot for potential risk monitoring.
+### **Page 2 – Customer Profile**
+- **KPIs:** Total Customers, Credit Score <650, Max Credit Limit, Max No. of Cards Issued  
+- **Refund Behavior:** By income band, credit score, age group  
+- **Customer Distribution:** Merchant state mapping with geographic concentration  
 
 ---
 
-## 🎯 Filters for Dynamic Exploration
+## 📈 Key Insights
 
-Users can slice and analyze the dashboard using multiple filters:
-- **Date Range**
-- **Card Type** (Credit / Debit / Prepaid)
-- **Transaction Mode** (Swipe / Online)
-- **Merchant State**
-- **Gender**
-
-📌 *Tooltip note added for user guidance: “Use filters above to slice data.”*
+- 💳 **Swipe transactions** (95% share) carry significantly higher refund risk compared to online transactions.  
+- 🔄 **Visa & Mastercard** dominate refund-linked card usage, accounting for the majority of cases.  
+- 🌍 Refund activity is heavily concentrated in **California, Florida, and New York**, making them priority states for monitoring.  
+- 🧑‍💼 Customers earning **₹25K–50K** show the highest refund % (~61%), indicating **higher abuse risk in lower income bands**.  
+- 📉 Customers with **credit scores <700** have above-average refund rates, linking **financial risk with transactional behavior**.  
+- 📊 Refund volume shows a **steady increase from Jan–May 2010**, pointing to **policy exploitation or repeated abuse**.  
 
 ---
 
@@ -70,11 +63,15 @@ Users can slice and analyze the dashboard using multiple filters:
 
 ---
 
-## 📷 Dashboard Snapshot
+---
 
-> Default view of the dashboard showing refund trends, KPIs, risk segments, and geographic distribution.
+## 📷 Dashboard Snapshots
 
-![Fraud & Refund Risk Dashboard](dashboard.png)
+### Executive Dashboard  
+![Executive Dashboard](dashboard.png)  
+
+### Customer Profile  
+![Customer Profile](customer-profile.png)  
 
 ---
 
@@ -87,11 +84,11 @@ You can download the `.pbix` file for this dashboard here:
 
 ## 🧠 Business Use Case
 
-This dashboard empowers financial institutions to:
-- Detect early signs of **refund abuse** and **loss patterns**
-- Identify **risky user segments** based on behavior, income, and credit score
-- Pinpoint **geographic regions** with higher exposure
-- Make data-driven decisions for **policy changes**, **fraud investigations**, and **risk control strategies**
+This dashboard enables financial institutions to:  
+- Detect **refund abuse & fraud-prone patterns**  
+- Identify **high-risk customer groups** by income and credit score  
+- Focus monitoring on **geographies with maximum exposure**  
+- Support **data-driven fraud investigation and policy design**  
 
 ---
 
